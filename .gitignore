@@ -1,4 +1,3 @@
-venv
-.env
-docker_db.sh
-prep.sh
+api/venv
+api/.env
+api/docker_db.sh

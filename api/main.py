@@ -62,7 +62,7 @@ class Flavor(Resource):
 
         return result
 
-    def put(self, id):
+    def patch(self, id):
         self.abort_if_id_is_not_digit(id)
 
         request_data = request.json

@@ -1,10 +1,14 @@
-import React from "react"
+import React, {Component} from "react"
+import FetchFlavors from "./components/FetchFlavors"
+import AddFlavorPrompt from "./components/AddFlavorPrompt"
 
-function App() {
-  fetch("/api/flavors/all")
-    .then(response => response.json())
-    .then(data => console.log(data))
-  return <h1 align="center">Hey</h1>
+export default class App extends Component {
+  render() {
+    return (
+      <>
+        <FetchFlavors/>
+        <AddFlavorPrompt/>
+      </>
+    )
+  }
 }
-
-export default App;

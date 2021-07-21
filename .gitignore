@@ -1,5 +1,5 @@
 api/venv
 api/.env
 api/docker_db.sh
-frontend/node_modules
-frontend/README.md
+react-frontend/node_modules
+react-frontend/README.md

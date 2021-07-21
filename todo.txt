@@ -1,1 +1,1 @@
-1. Have FetchFlavors component rerender upon deletions and insertions
+Add edit buttons

@@ -47,7 +47,7 @@ export default class App extends Component {
       method: "DELETE"
     })
   }
-
+  
   render() {
     if (!this.state.flavors.length) {
       this.fetchFlavorsFromAPI()

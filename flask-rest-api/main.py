@@ -9,6 +9,8 @@ from os import getenv
 load_dotenv()
 
 app = Flask(__name__)
+app.config["SECRET_KEY"] = getenv("SECRET_KEY")
+app.config["TESTING"] = True
 app.config["SQLALCHEMY_DATABASE_URI"] = getenv("DB_URI")
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 

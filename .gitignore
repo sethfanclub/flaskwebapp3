@@ -3,3 +3,4 @@ flask-rest-api/.env
 flask-rest-api/docker_db.sh
 react-frontend/node_modules
 react-frontend/README.md
+db-data
